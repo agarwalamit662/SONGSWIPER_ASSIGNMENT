@@ -61,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
     private AlertDialog dialogAlert;
     private int edit_position;
     private View view;
-
     private Paint p = new Paint();
 
     @Override
