@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+     
+        <!--<EditText
+        android:id="@+id/et_country"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+    <at.markushi.ui.CircleButton
+        android:layout_marginTop="20dp"
+        android:id="@+id/likeButton"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:src="@drawable/ic_star_white_48dp"
+        android:layout_marginBottom="20dp"
+        app:cb_color="@color/colorPrimary"
+        app:cb_pressedRingWidth="8dip" />
+
+
+    <at.markushi.ui.CircleButton
+        android:layout_marginTop="20dp"
+        android:id="@+id/deleteButton"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_delete_white_48dp"
+        android:layout_marginBottom="20dp"
+        app:cb_color="@color/colorPrimary"
+        app:cb_pressedRingWidth="8dip"
+        />
+
+
+    </LinearLayout>
