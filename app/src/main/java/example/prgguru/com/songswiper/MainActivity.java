@@ -724,7 +724,7 @@ public class MainActivity extends AppCompatActivity {
             values = new ContentValues();
 
             values.put(UserProvider._MOVIE_ID,6);
-            values.put(UserProvider._MOVIE_NAME, "DA DA DASSE");
+            values.put(UserProvider._MOVIE_NAME, "ABCD 2");
             values.put(UserProvider._SONG_ID, 3);
             values.put(UserProvider._SONG_NAME,"CHUNAR");
             values.put(UserProvider._SONG_LIKED,"0");
@@ -798,7 +798,7 @@ public class MainActivity extends AppCompatActivity {
             values = new ContentValues();
 
             values.put(UserProvider._MOVIE_ID,7);
-            values.put(UserProvider._MOVIE_NAME, "DA DA DASSE");
+            values.put(UserProvider._MOVIE_NAME, "AASHQUI 2");
             values.put(UserProvider._SONG_ID, 3);
             values.put(UserProvider._SONG_NAME,"HUM MAR JAYENGE");
             values.put(UserProvider._SONG_LIKED,"0");
