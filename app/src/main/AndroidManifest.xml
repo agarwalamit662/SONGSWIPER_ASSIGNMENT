@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="example.prgguru.com.songswiper">
+
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
@@ -22,9 +23,12 @@
 
         <provider
             android:name=".data.UserProvider"
-            android:authorities="example.prgguru.com.songswiper.data"
-            />
+            android:authorities="example.prgguru.com.songswiper.data" />
 
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
